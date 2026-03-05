@@ -34,7 +34,7 @@ export function StationCard({ station, isSelected, onSelect, onBook, compact = f
   const minPrice = Math.min(...station.chargers.map(c => c.pricePerKwh));
   const maxPrice = Math.max(...station.chargers.map(c => c.pricePerKwh));
 
-  const chargerTypes = [...new Set(station.chargers.map(c => c.type))];
+  const chargerTypes = station.chargers.map(c => c.type).filter((v, i, a) => a.indexOf(v) === i);
 
   return (
     <div
