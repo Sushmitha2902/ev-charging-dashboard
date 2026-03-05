@@ -1,0 +1,58 @@
+[
+  {
+    "id": "u001",
+    "name": "Arjun Sharma",
+    "email": "arjun@example.com",
+    "password": "password123",
+    "role": "user",
+    "phone": "+91 9876543210",
+    "vehicle": {
+      "make": "Tata",
+      "model": "Nexon EV",
+      "year": 2023,
+      "batteryCapacity": 40.5,
+      "avgKwhPerKm": 0.18,
+      "licensePlate": "KA01AB1234"
+    },
+    "avatar": null,
+    "createdAt": "2024-01-15T10:30:00Z",
+    "totalSessions": 47,
+    "totalKwhCharged": 1234.5,
+    "totalSpend": 24690
+  },
+  {
+    "id": "u002",
+    "name": "Priya Nair",
+    "email": "priya@example.com",
+    "password": "password123",
+    "role": "user",
+    "phone": "+91 9876543211",
+    "vehicle": {
+      "make": "MG",
+      "model": "ZS EV",
+      "year": 2022,
+      "batteryCapacity": 50.3,
+      "avgKwhPerKm": 0.20,
+      "licensePlate": "KA02CD5678"
+    },
+    "avatar": null,
+    "createdAt": "2024-02-20T14:45:00Z",
+    "totalSessions": 32,
+    "totalKwhCharged": 890.2,
+    "totalSpend": 17804
+  },
+  {
+    "id": "u003",
+    "name": "Admin User",
+    "email": "admin@evcharge.com",
+    "password": "admin123",
+    "role": "admin",
+    "phone": "+91 9876543212",
+    "vehicle": null,
+    "avatar": null,
+    "createdAt": "2023-12-01T09:00:00Z",
+    "totalSessions": 0,
+    "totalKwhCharged": 0,
+    "totalSpend": 0
+  }
+]
