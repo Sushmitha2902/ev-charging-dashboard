@@ -1,35 +1,33 @@
-# ⚡ VoltMap — EV Charging Station Dashboard
+#VoltMap — EV Charging Station Dashboard
 
 A modern, production-ready EV Charging Station Network dashboard built with Next.js 14, TypeScript, and Tailwind CSS.
 
-## 🚀 Live Demo
+## Live Demo
 
-**Vercel URL:** [Deploy to get URL]
-
-## ✨ Features
+## Features
 
 ### User Features
-- 🗺️ **Interactive Map** — Google Maps with real-time station availability, clusters, radius overlay
-- 🔍 **Smart Filters** — Filter by charger type, price, distance, availability
-- 📅 **Booking Flow** — Multi-step charger booking with cost calculator
-- 🧮 **Cost Calculator** — Dynamic kWh slider + estimated time
-- 📊 **Session History** — Full timeline with invoice viewer
-- 👤 **Profile Management** — Vehicle details, battery config, stats
+-**Interactive Map** — Google Maps with real-time station availability, clusters, radius overlay
+- **Smart Filters** — Filter by charger type, price, distance, availability
+- **Booking Flow** — Multi-step charger booking with cost calculator
+- **Cost Calculator** — Dynamic kWh slider + estimated time
+-  **Session History** — Full timeline with invoice viewer
+-  **Profile Management** — Vehicle details, battery config, stats
 
 ### Admin Features
-- 📈 **Analytics Dashboard** — Sessions, revenue, charger status, peak hours
-- 🏢 **Station Management** — Full CRUD with expandable charger details
-- ✅ **Approval Queue** — Approve/reject bookings, monitor active sessions
+-  **Analytics Dashboard** — Sessions, revenue, charger status, peak hours
+-  **Station Management** — Full CRUD with expandable charger details
+-  **Approval Queue** — Approve/reject bookings, monitor active sessions
 
 ### UI/UX
-- 🌙 **Dark/Light Theme** — Toggle with system preference detection
-- 📱 **Mobile-First** — Responsive with drawer navigation on mobile
-- ⚡ **Real-time Indicators** — Animated availability dots (green/orange/red)
-- 💰 **Dynamic Pricing Badges** — Peak ₹22/kWh, Night ₹15/kWh
-- 🦴 **Skeleton Loaders** — For map and station list
-- 🔒 **Auth Persistence** — Session stored in localStorage via Zustand
+-  **Dark/Light Theme** — Toggle with system preference detection
+-  **Mobile-First** — Responsive with drawer navigation on mobile
+-  **Real-time Indicators** — Animated availability dots (green/orange/red)
+-  **Dynamic Pricing Badges** — Peak ₹22/kWh, Night ₹15/kWh
+-  **Skeleton Loaders** — For map and station list
+-  **Auth Persistence** — Session stored in localStorage via Zustand
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -42,7 +40,7 @@ A modern, production-ready EV Charging Station Network dashboard built with Next
 | Recharts | Analytics charts |
 | date-fns | Date formatting |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ev-dashboard/
@@ -87,7 +85,7 @@ ev-dashboard/
     └── sessions.json             # Mock booking sessions
 ```
 
-## 🏃 Quick Start
+## Quick Start
 
 ### 1. Clone & Install
 
@@ -133,7 +131,7 @@ npm run build
 npm start
 ```
 
-## 🔐 Demo Accounts
+## Demo Accounts
 
 | Role | Email | Password |
 |------|-------|----------|
@@ -141,7 +139,7 @@ npm start
 | User | priya@example.com | password123 |
 | Admin | admin@evcharge.com | admin123 |
 
-## 🗺️ Mock Data — Bangalore Stations
+## mock Data — Bangalore Stations
 
 25 stations across key areas:
 
@@ -155,7 +153,7 @@ npm start
 | Manyata Tech Park | 1 | ₹16–₹22/kWh |
 | + 14 more areas | ... | ... |
 
-## 📱 Demo Scenarios
+## Demo Scenarios
 
 ```
 Peak Hours (8–10 AM, 6–9 PM):  Red availability indicators
@@ -179,7 +177,7 @@ vercel
 
 Or connect your GitHub repo to [vercel.com](https://vercel.com) and add the env var in Project Settings.
 
-## 🎨 Design System
+## Design System
 
 - **Primary:** Electric Blue (`#0ea5e9`) — CTAs, active states, maps
 - **Secondary:** Volt Green (`#22c55e`) — Success, available status
