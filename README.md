@@ -175,7 +175,7 @@ vercel
 # NEXT_PUBLIC_GOOGLE_MAPS_API_KEY = your_key
 ```
 
-Or connect your GitHub repo to [vercel.com](https://vercel.com) and add the env var in Project Settings.
+Vercel : https://ev-charging-dashboard-1ngw.vercel.app/
 
 ## Design System
 
@@ -189,4 +189,4 @@ Or connect your GitHub repo to [vercel.com](https://vercel.com) and add the env 
 
 ---
 
-Built for the IR Infotech Frontend Intern Hiring Task 🚀
+
